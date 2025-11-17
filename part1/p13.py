@@ -1,13 +1,13 @@
 n=1
 while n<=5:
     age=int(input("Enter your age:"))
+    n=n+1
     if age<20:
         print("Restricted")
         continue
     name=input("Enter name")  
     print(f"Hello {name}")
     flag=input("Continue(y/n)")
-    n=n+1
     if flag!="y":
         break
 else:
