@@ -1,7 +1,7 @@
 customers = []
 print("*** My Bank ***")
 while True:
-    print("1.New Customer\n2.Existing Customer\n3.Exit")
+    print("1.New Customer\n2.Existing Customer\n3.View Customers\n4.Exit")
     ch = input("Enter your choice: ")
     if ch=="1":
         card = input("Enter card#")
@@ -41,4 +41,6 @@ while True:
                         case _:
                             print("Invalid Choice")
     elif ch=="3":
+        print(customers)
+    elif ch=="4":
         break
