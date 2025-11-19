@@ -1,0 +1,23 @@
+t = (1,5,2,3,1)
+# print(t)
+# print(t[0])
+# print(t[:3])
+# for i in t:
+#     print(i)
+# print(t.count(1))
+# print(t.index(1))
+# print(sum(t))
+# print(min(t))
+# print(max(t))
+# print(len(t))
+# list = list(t)
+# print(list)
+# t1 = tuple(list)
+# print(t1)
+# lst = sorted(t)
+# print(lst)
+
+lst = [3,1,2]
+# lst.sort()
+print(sorted(lst))
+print(lst)
