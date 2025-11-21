@@ -1,0 +1,22 @@
+import array as arr
+n=arr.array('i',[5,7,5,4,3])
+# print(n)
+# n.append(25)
+# print(n)
+# n.pop()
+# print(n)
+# print(n.count(5))
+# n.extend([12,45])
+# print(n)
+# n.remove(5)
+# print(n)
+# n.reverse()
+# print(n)
+# n.insert(0,75)
+# print(n)
+# print(n.index(5))
+for i in n:
+    print(i)
+list = n.tolist()
+print(list)
+    
