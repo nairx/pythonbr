@@ -1,0 +1,10 @@
+result = (i for i in range(5))
+print(result)
+print(type(result))
+
+# print(next(result))
+# print(next(result))
+# print(next(result))
+# print(next(result))
+# print(next(result))
+# print(next(result))

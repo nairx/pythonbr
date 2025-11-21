@@ -1,0 +1,12 @@
+from datetime import datetime
+d = datetime.now()
+# d = datetime(2025,10,10,12,12,12)
+# d = datetime.utcnow()
+print(d)
+print(d.hour)
+print(d.minute)
+print(d.second)
+print(d.weekday())
+print(d.year)
+print(d.month)
+print(d.day)
