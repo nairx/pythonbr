@@ -6,4 +6,5 @@ mydb = mysql.connector.connect(
   database="broadridge"
 )
 mycursor = mydb.cursor()
+
 mycursor.execute("CREATE TABLE customers (name VARCHAR(255), email VARCHAR(255))")
