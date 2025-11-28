@@ -1,0 +1,12 @@
+import numpy as np
+# arr = np.zeros(3)
+# print(arr)
+# print(arr[0])
+# arr = np.ones(3)
+# print(arr)
+# arr = np.full((2,3),50)
+# print(arr)
+# arr = np.random.rand(2,3)
+# print(arr)
+arr = np.random.randint(0,5,size=(3,4))
+print(arr)
